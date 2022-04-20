@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left,
+.right {
+  height: 50vh;
+  width: 100%;
+}
+
+.right {
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+form h4 {
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 30px;
+  background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+}
+form {
+  margin: 30px;
+  height: 350px;
+  padding: 45px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.form-group,
+.form-check {
+  margin-bottom: 8px;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card p {
+  margin-bottom: 4px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.icon {
+  color: black;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer a {
+  text-decoration: none;
+  color: #999;
+}
+
+.modal-footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .left {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .left {
+    height: 100vh;
+    position: relative;
+  }
+  .right {
+    height: 100vh;
+  }
+  form {
+    margin-top: 80px;
+  }
+  .card {
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  form {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  form {
+    margin-top: 140px;
+  }
+}
